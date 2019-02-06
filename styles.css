@@ -1,0 +1,362 @@
+body {
+    background:rgba(139,69,19,0.5);
+    filter:blur(0.2px);
+    cursor:url(http://icons.iconarchive.com/icons/google/noto-emoji-people-profession/32/10288-woman-mechanic-medium-dark-skin-tone-icon.png), auto;
+}
+
+.title {
+    font-family: 'Abril Fatface', cursive;
+    color:#F3F1EF;
+    width:670px;
+    font-size:60px;
+    margin-left:auto;
+    margin-right:auto;
+    text-shadow: 2px 3px 7px #834F27, -3px 2px 7px #5B3416, -2px -3px 7px #91603A;
+    transform: skewX(-1deg) rotate(5deg);
+    transition:1s;
+    
+}
+
+.title:hover{
+    
+    padding-top:71px;
+    transform:scale(1.5,1.5);
+}
+
+.clip-text {
+  
+    font-weight: bold;
+    line-height: 1;
+    margin: 2em;
+    padding: .5em .75em ;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:100px;
+}
+
+
+.clip-text_one {
+    background-image: url(https://publichealthwatch.files.wordpress.com/2015/06/sexism-in-stem-5-e1433894785141.jpg);
+    background-repeat:repeat;
+    width:520px;
+    border: 10px solid white;
+    margin-left:auto;
+    margin-right:auto;
+    filter: blur(0.5px);  
+    animation-name: box;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes box {
+    from {box-shadow: 0px 0px 0px;}
+    to {box-shadow :-7px 8px 0px #f0e0d7, -15px 19px 0px #DCAEAE, 7px -8px 0px #f0e0d7, 15px -19px 0px #DCAEAE ; }
+}
+
+
+.button {
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;
+    justify-content:center;
+    background:#DED8D3;
+    width:300px;
+    height:50px;
+    padding-top:10px;
+    border: 5px solid #65452C;
+    font-family: 'Abril Fatface', cursive;
+    font-size:30px;
+}
+
+.button:hover {
+    background:white;
+}
+
+.secondtitle {
+    display:none;
+    font-family: 'Abril Fatface', cursive;
+    color:#F3F1EF;
+    width:670px;
+    font-size:60px;
+    margin-left:auto;
+    margin-right:auto;
+    text-shadow: 2px 3px 7px #834F27, -3px 2px 7px #5B3416, -2px -3px 7px #91603A;
+    transform: skewX(-1deg) rotate(5deg);
+}
+
+.girls {
+    display:none;
+    color:white;
+    font-size:25px;
+    font-family: 'Noto Serif SC', serif;
+}
+
+.img1 {
+    width:300px;
+    height:300px;
+}
+
+
+.button2 {
+    margin-left:auto;
+    margin-right:auto;
+    background:#DED8D3;
+    width:300px;
+    height:50px;
+    padding-top:10px;
+    border: 5px solid #65452C;
+    font-family: 'Abril Fatface', cursive;
+    font-size:30px;
+    display:none;
+    align-self:center;
+}
+
+.button2:hover {
+    background:white;
+    
+}
+
+.teens {
+    display:none;
+    color:white;
+    font-size:25px;
+    font-family: 'Noto Serif SC', serif;
+}
+
+.img2 {
+    width:200px;
+    height:300px;
+}
+
+.button3 {
+    display:none;
+    margin-left:auto;
+    margin-right:auto;
+    background:#DED8D3;
+    width:300px;
+    height:50px;
+    padding-top:10px;
+    border: 5px solid #65452C;
+    font-family: 'Abril Fatface', cursive;
+    font-size:30px;
+}
+
+.button3:hover {
+    background:white;
+    
+}
+
+.thirdtitle {
+    display:none;
+    font-family: 'Abril Fatface', cursive;
+    color:#F3F1EF;
+    width:670px;
+    font-size:60px;
+    margin-left:auto;
+    margin-right:auto;
+     text-shadow: 2px 3px 7px #834F27, -3px 2px 7px #5B3416, -2px -3px 7px #91603A;
+    transform: skewX(-1deg) rotate(5deg);
+}
+
+.adult {
+    display:none;
+    color:white;
+    font-size:25px;
+    font-family: 'Noto Serif SC', serif;
+}
+
+.img4 {
+    width:450px;
+    height:350px;
+}
+.button4 {
+    display:none;
+    margin-left:auto;
+    margin-right:auto;
+    background:#DED8D3;
+    width:300px;
+    height:50px;
+    padding-top:10px;
+    border: 5px solid #65452C;
+    font-family: 'Abril Fatface', cursive;
+    font-size:30px;
+   
+}
+
+.button4:hover {
+    background:white;
+    
+}
+
+.button5:hover {
+    background:white;
+    
+}
+
+.fourthtitle {
+    display:none;
+    font-family: 'Abril Fatface', cursive;
+    color:#F3F1EF;
+    width:670px;
+    font-size:60px;
+    margin-left:auto;
+    margin-right:auto;
+    text-shadow: 2px 3px 7px #834F27, -3px 2px 7px #5B3416, -2px -3px 7px #91603A;
+    transform: skewX(-1deg) rotate(5deg);
+}
+
+.fifthtitle {
+    display:none;
+    font-family: 'Abril Fatface', cursive;
+    color:#F3F1EF;
+    width:670px;
+    font-size:60px;
+    margin-left:auto;
+    margin-right:auto;
+    text-shadow: 2px 3px 7px #834F27, -3px 2px 7px #5B3416, -2px -3px 7px #91603A;
+    transform: skewX(-1deg) rotate(5deg);
+}
+.solutions {
+    display:none;
+    color:white;
+    font-size:25px;
+    font-family: 'Noto Serif SC', serif;
+}
+
+.button5 {
+    display:none;
+    margin-left:auto;
+    margin-right:auto;
+    background:#c7b19e;
+    width:300px;
+    height:50px;
+    padding-top:10px;
+    border: 5px solid #65452C;
+    font-family: 'Abril Fatface', cursive;
+    font-size:30px;
+}
+
+.five {
+    display:none;
+}
+    
+.fifthtitle {
+    font-family: 'Abril Fatface', cursive;
+    color:#F3F1EF;
+    width:670px;
+    font-size:60px;
+    margin-left:auto;
+    margin-right:auto;
+     text-shadow: 2px 3px 7px #834F27, -3px 2px 7px #5B3416, -2px -3px 7px #91603A;
+    transform: skewX(-1deg) rotate(5deg);
+}
+
+.container {
+    display:flex;
+    background:#cba483;
+    width:500px;
+    height:540px;
+    margin-right:60px;
+    border: 15px solid white;
+    padding:20px;
+    margin-right:25px;
+}
+
+.left {
+    color:white;
+    font-family: 'Jacques Francois', serif;
+    justify-content:flex-start;
+    font-size:16px;
+    
+}
+
+.container {
+    display:flex;
+    background:#cba483;
+    width:500px;
+    height:520px;
+    margin:50px;
+    margin-right:60px;
+}
+
+.middle {
+    color:white;
+    font-family: 'Jacques Francois', serif;
+    justify-content:flex-end;
+    
+}
+
+.right {
+    display:flex;
+    justify-content:flex-end;
+    margin-top:-55.3%;
+}
+
+a {
+    color:white;
+    text-decoration:none;
+}
+
+a:hover {
+    color:white;
+    text-decoration:none;
+    opacity:0.5;
+    }
+
+.websites {
+    margin:20px;
+    background: #ddc2ab;
+    font-size:18px;
+}
+
+.solutions {
+    margin:-1px;
+    background: #ddc2ab;
+    font-size:14.5px;
+}
+
+.ending{
+    width:450px;
+    height:400px;
+    justify-content:center;
+    margin-left:auto;
+    margin-right:auto;
+    vertical-align:center;
+    padding-top:20px;
+}
+ 
+.button, .button2, .button3, .button4, .button5 {
+    text-align:center;
+}
+
+.img1,.img2,.img3 {
+    text-align:center;
+    display:none;
+  margin-left: auto;
+  margin-right: auto;
+    border: 10px solid white;
+    box-shadow: 2px 0px 10px #150d05;
+ 
+}
+
+.img3 {
+    width:450px;
+    height:400px;
+}
+
+.photo {
+    text-align:center;
+    display:none;
+    
+}
+
+.meredith {
+    color:white;
+    vertical-align:center;
+    text-align:center;
+    display:none;
+    font-size:60px;
+    padding: 70px 0;
+}
+  
